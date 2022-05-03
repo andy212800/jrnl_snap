@@ -1,6 +1,6 @@
-name: jrnl
+name: jrnl-sh
 version: '2.8.4'
-summary: Command-line journaling app
+summary: jrnl: the command-line journaling app
 description: |
   Collect your thoughts and notes without leaving the command line.
 confinement: strict
