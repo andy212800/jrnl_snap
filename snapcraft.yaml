@@ -12,6 +12,7 @@ parts:
   jrnl-sh:
     plugin: python
     source: https://files.pythonhosted.org/packages/11/5c/dfbccbe2d5042b89240c9e3af48aa8c79c462981330e397b656490a9b997/jrnl-2.8.4.tar.gz
+    stage-packages: [nano,vim]
 
 apps:
   jrnl-sh:
