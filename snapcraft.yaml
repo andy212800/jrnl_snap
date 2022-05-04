@@ -5,6 +5,7 @@ description: |
   Collect your thoughts and notes without leaving the command line.
 confinement: strict
 base: core20
+compression: lzo
 
 grade: stable
 
