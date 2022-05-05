@@ -9,6 +9,12 @@ compression: lzo
 
 grade: stable
 
+layout:
+  /etc/nanorc:
+    bind-file: $SNAP/etc/nanorc
+  /usr/share/nano:
+    symlink: $SNAP/usr/share/nano
+
 parts:
   jrnl-sh:
     plugin: python
